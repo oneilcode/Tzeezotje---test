@@ -88,7 +88,7 @@ legend {
 
 .header {
   padding: 55px 0 265px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url("img/mainbg.jpg") no-repeat center top/cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url("../img/mainbg.jpg") no-repeat center top/cover;
   color: #fff; }
   @media (max-width: 576px) {
     .header {
@@ -144,7 +144,7 @@ legend {
     margin-right: 11px;
     width: 24px;
     height: 24px;
-    background: url("img/phone.svg") no-repeat center center; }
+    background: url("../img/phone.svg") no-repeat center center; }
 
 .offer__btn {
   font-weight: 700;
@@ -276,7 +276,7 @@ legend {
     display: block;
     width: 83px;
     height: 58px;
-    background: url("img/quotes.svg") no-repeat center center;
+    background: url("../img/quotes.svg") no-repeat center center;
     margin: 0 auto 34px; }
   .review__card {
     margin: 0 auto;
@@ -315,7 +315,7 @@ legend {
   display: block;
   width: 70px;
   height: 70px;
-  background: url("img/arrow-down.svg") no-repeat center center; }
+  background: url("../img/arrow-down.svg") no-repeat center center; }
   @media (max-width: 991px) {
     .button-next {
       display: none; } }
@@ -324,7 +324,7 @@ legend {
   display: block;
   width: 70px;
   height: 70px;
-  background: url("img/arrow-down.svg") no-repeat center center;
+  background: url("../img/arrow-down.svg") no-repeat center center;
   transform: rotate(180deg); }
   @media (max-width: 991px) {
     .button-prev {
