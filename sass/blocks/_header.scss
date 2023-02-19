@@ -1,7 +1,7 @@
 .header {
   padding: 55px 0 265px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)),
-    url("../img/mainbg.jpg") no-repeat center top/cover;
+    url("../img/main.jpg") no-repeat center center/cover;
   color: #fff;
 
   @media (max-width: 576px) {
@@ -12,6 +12,9 @@
 
   &__logo {
     display: block;
+    img {
+      width: 50px;
+    }
   }
 
   // .header__nav
@@ -107,10 +110,11 @@
   }
 
   &__text {
+    display: block;
     font-weight: 500;
     font-size: 24px;
     margin-bottom: 25px;
-    text-transform: uppercase;
+    
   }
 
   // .offer__title
@@ -118,7 +122,7 @@
   &__title {
     font-weight: 700;
     font-size: 62px;
-    line-height: 88px;
+    line-height: 74px;
     margin-bottom: 40px;
 
     @media (max-width: 576px) {
